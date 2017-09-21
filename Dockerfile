@@ -10,7 +10,7 @@ ENV PJSIP_RELEASE 2.5.5
 # Args passed in (won't work with Docker Hub automated builds)
 # ARG IMAGE_TAG_FINAL
 
-ENV IMAGE_TAG_FINAL 13.13-cert5
+ENV IMAGE_TAG_FINAL 13.13-cert6
 
 WORKDIR ~/
 
