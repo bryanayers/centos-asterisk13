@@ -5,12 +5,12 @@ MAINTAINER info@incendonet.com
 # Env setup
 ENV HOME /root
 ENV ASTERISK_RELEASE_PREFIX certified-
-ENV PJSIP_RELEASE 2.5.5
+ENV PJSIP_RELEASE 2.7.1
 
 # Args passed in (won't work with Docker Hub automated builds)
 # ARG IMAGE_TAG_FINAL
 
-ENV IMAGE_TAG_FINAL 13.13-cert6
+ENV IMAGE_TAG_FINAL 13.13-cert7
 
 WORKDIR ~/
 
