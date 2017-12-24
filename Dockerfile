@@ -10,7 +10,7 @@ ENV PJSIP_RELEASE 2.7.1
 # Args passed in (won't work with Docker Hub automated builds)
 # ARG IMAGE_TAG_FINAL
 
-ENV IMAGE_TAG_FINAL 13.13-cert7
+ENV IMAGE_TAG_FINAL 13.18-cert2
 
 WORKDIR ~/
 
@@ -27,8 +27,9 @@ RUN \
 		libtool \
 		libuuid-devel \
 		libxml2-devel \
-		ncurses-devel \
 		make \
+		ncurses-devel \
+		openssl-devel \
 		sqlite-devel \
 		tar \
 		uuid-devel \
