@@ -1,7 +1,7 @@
 IMAGE_NAME_BUILDER = centos-asterisk13
 CONTAINER_NAME = builder
 IMAGE_NAME = asterisk
-IMAGE_TAG_FINAL = 13.18-cert2
+IMAGE_TAG_FINAL = 13.18-cert3
 REPO_HOST = docker.io
 REPO_NAME = incendonet
 LOCAL_REPO_PORT = 5000
